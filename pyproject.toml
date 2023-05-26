@@ -33,3 +33,10 @@ dependencies = ["pydra>=0.22"]
 Documentation = "https://github.com/ghisvail/pydra-filemanip#readme"
 Issues = "https://github.com/ghisvail/pydra-filemanip/issues"
 Source = "https://github.com/ghisvail/pydra-filemanip"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = [
+  "--doctest-modules",
+  "--doctest-continue-on-failure",
+]
