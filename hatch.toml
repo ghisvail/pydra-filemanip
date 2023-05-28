@@ -1,5 +1,5 @@
 [build.targets.wheel]
-only-include = ["src/pydra/tasks/fsl"]
+only-include = ["src/pydra/tasks/filemanip"]
 sources = ["src"]
 
 [envs.default]
